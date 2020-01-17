@@ -1,5 +1,5 @@
-$Ports  = cat ports.txt
-$ALLIP = cat allip.txt 
+$Ports  = cat ./data/ports.txt
+$ALLIP = cat ./data/allip.txt 
 
 ForEach($IP in $ALLIP){
 Foreach ($P in $Ports){
